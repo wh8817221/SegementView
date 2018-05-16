@@ -1,8 +1,6 @@
 //
 //  ViewController.swift
 //  SegementViewDemo
-//
-//  Created by 王浩 on 2018/5/16.
 //  Copyright © 2018年 haoge. All rights reserved.
 //
 
@@ -25,7 +23,8 @@ class ViewController: UIViewController {
     func segmentViewUI() {
         //创建控制器
         for index in 0..<(titles?.count)! {
-            let targetVC = TestViewController(text: (titles?[index])!)
+            let randomColor = UIColor(red: CGFloat(arc4random()%255) / 255, green: CGFloat(arc4random()%255) / 255, blue: CGFloat(arc4random()%255) / 255, alpha: 1.0)
+            let targetVC = TestViewController(text: (titles?[index])!, color: randomColor)
             arrVC.append(targetVC)
         }
         

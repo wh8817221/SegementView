@@ -1,8 +1,6 @@
 //
 //  AppDelegate.swift
 //  SegementViewDemo
-//
-//  Created by 王浩 on 2018/5/16.
 //  Copyright © 2018年 haoge. All rights reserved.
 //
 
